@@ -1,8 +1,8 @@
-// WindowsProject2.cpp : Defines the entry point for the application.
+// extmonswitch.cpp : Defines the entry point for the application.
 //
 
 #include "framework.h"
-#include "WindowsProject2.h"
+#include "extmonswitch.h"
 #include <shellapi.h>
 
 #define MAX_LOADSTRING 100
@@ -133,8 +133,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             POWERBROADCAST_SETTING* ps = (POWERBROADCAST_SETTING*)lParam;
             if (ps->PowerSetting == GUID_LIDSWITCH_STATE_CHANGE) {
                 bool isLidOpen = ps->Data[0] != '\0';
-                STARTUPINFO info = { sizeof(info) };
-                PROCESS_INFORMATION processInfo;
 
                 if (isLidOpen) {
                     WinExec("DisplaySwitch /extend", SW_NORMAL);

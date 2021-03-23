@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{63eb2b28-1911-4712-b4dc-2dce6813d042}</ProjectGuid>
-    <RootNamespace>WindowsProject2</RootNamespace>
+    <RootNamespace>extmonswitch</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,17 +142,17 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="WindowsProject2.h" />
+    <ClInclude Include="extmonswitch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WindowsProject2.cpp" />
+    <ClCompile Include="extmonswitch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="WindowsProject2.rc" />
+    <ResourceCompile Include="extmonswitch.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico" />
-    <Image Include="WindowsProject2.ico" />
+    <Image Include="extmonswitch.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

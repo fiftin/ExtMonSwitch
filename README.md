@@ -17,3 +17,4 @@ This app automatically disables the laptop monitor when you close the lid.
 3. Download latest release of the app from [Releses page](https://github.com/ansible-semaphore/semaphore/releases/).
 4. Store it to `C:\utils` or other folder which you use for portable apps.
 5. Press `Win+R` and execute command `Shell:common startup`. Create link to the app in opened folder (Stratup programs).
+6. After restart the app will be running in background.

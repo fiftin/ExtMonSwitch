@@ -1,2 +1,3 @@
-# external_monitor_if_lid_closed
-Switching to external monitor when lid closed
+# External Monitor Switcher
+
+Switching to the external monitor when lid closed.
